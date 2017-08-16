@@ -25,7 +25,6 @@ public class Start implements ApplicationListener<ApplicationReadyEvent> {
         map.put("id", "66842");
         try {
             String result = HttpUtils.get("http://music.163.com/song", map);
-
         } catch (IOException e) {
             e.printStackTrace();
         }
